@@ -1,19 +1,12 @@
 package pkg_test
 
 import (
-	"testing"
-
 	"github.com/JonasBorgesLM/estudos/algorithms/pkg"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )
 
 // TestBinarySearch sets up the test environment for the BinarySearch function.
-func TestBinarySearch(t *testing.T) {
-	gomega.RegisterFailHandler(ginkgo.Fail)
-	ginkgo.RunSpecs(t, "BinarySearch Suite")
-}
-
 var _ = ginkgo.Describe("Binary Search", func() {
 
 	ginkgo.Context("when the array is sorted", func() {
