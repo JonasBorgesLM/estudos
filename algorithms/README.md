@@ -23,3 +23,13 @@ The `SelectionSort` function implements the selection sort algorithm to sort an 
 - **In-Place Sorting**: Sorts the array without using additional space.
 - **Stable Sorting**: Maintains the relative order of equal elements.
 - **Time Complexity**: Operates in O(n²) time complexity, making it less efficient on large lists.
+
+---
+
+### 3. QuickSort
+
+The `QuickSort` function implements the quicksort algorithm to sort an array of integers.
+
+- **Divide and Conquer**: Utilizes the divide and conquer strategy for sorting.
+- **Efficient Sorting**: Generally performs well on large datasets with average time complexity of O(n log n).
+- **In-Place Sorting**: Sorts the array without using additional space.
